@@ -49,4 +49,5 @@ In the script, you can customize the following settings:
 - customer (Ekara account ID)
 - HTMLFile (HTML page name)
 
-Le script génère une alerte pour les scénarios en echec ou dégradés.
+The script generates an alert for failed or degraded scenarios.
+
