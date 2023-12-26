@@ -1,0 +1,170 @@
+html, body 
+    {
+	    height: 100%;
+	}
+
+    div
+    {
+        margin: 0 auto;
+        position: relative;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: #F2F2F2;
+    }
+    #col1
+    {
+        float:left;
+        Align:center;
+        height:55pt;
+    }
+    #col2
+    {
+        margin-left:100px;
+        Align:center;
+        
+    }
+
+    table
+    {
+        Margin: 0px 0px 0px 4px;
+        Border: 1px solid rgb(190, 190, 190);
+        Font-Family: Tahoma;
+        Font-Size: 15pt;
+        /*Background-Color: rgb(252, 252, 252);*/
+        border-radius: 10px;
+        box-shadow: 9px 9px 9px 9px rgba(0,0,0,0.1);
+        Padding: 4px 4px 4px 4px;
+    }
+    tr:hover td
+    {
+        border:1px solid #000000;
+        -moz-border-radius:10px 0;
+        -webkit-border-radius:10px 0;
+        border-radius:10px 0;
+    }
+    tr:nth-child(even)
+    {
+        /*Background-Color: rgb(255, 243, 230);*/
+		Background-Color: rgb(252, 252, 252);
+    }
+	
+    th
+    {
+        Text-Align: center;
+        Color: #1F497D;
+        Padding: 1px 4px 1px 4px;
+    }
+	
+    td
+    {
+        Vertical-Align: Center;
+        Padding: 4px 10px 4px 10px;
+    }
+    .colLast
+    {
+        Background-Color: #FFFFFF;
+        color:#FFFFFF;
+        border-radius:50px;
+        width:20px;
+        border:1px solid #000000;
+        text-align:center;
+        Font-Size: 10pt;
+    }
+    h1
+    {
+        Background-Color: #FFFFFF;
+        Font-Family: Tahoma;
+        Font-Size: 22pt;
+        Text-Align: center;
+        color: #08298A;
+    }
+    h2
+    {
+        Background-Color: #FFFFFF;
+        Font-Family: Tahoma;
+        Font-Size: 10pt;
+        Text-Align: center;
+        color: #08298A;
+    }
+
+    hr 
+    {
+        border: none;
+        background-color: #D8D8D8;
+        height: 5px;
+        margin-top: 0em;
+        margin-bottom: 0em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    fieldset 
+    {
+        font-family: sans-serif;
+        background: #F2F2F2;
+        border: 2px solid #D8D8D8;
+        border-left : none;
+        border-right : none;
+        margin-top:2px;
+        margin-bottom:2em;
+        margin-right:0px;
+        margin-left:0px;
+        padding-top:15px;
+        padding-bottom:20px;
+        padding-right:5px;
+        padding-left:5px;
+    }
+    fieldset legend 
+    {
+        background: #1F497D;
+        color: #fff;
+        padding: 5px 10px ;
+        font-size: 30px;
+        border-radius: 5px;
+        box-shadow: 0 0 0 5px #ddd;
+        margin-left: 20px;
+    }
+    section 
+    {
+        margin: 10px;
+    }
+
+    .logo 
+    {
+      padding: 0 6px;
+      width: 60px;
+      height: 60px;
+      display:block;
+      float: left;
+    }
+	
+	.columns_middle
+	{
+		float: left;
+		width: 685px;
+	}
+	
+	.box {
+		width:auto;
+		padding: 0;
+		margin-bottom:20px;
+		border: solid #1F497D;
+		border-width: 0 1px 1px;
+		transition: transform 0.3s ease-out;
+	}
+	
+	.box_blue_shade { margin: 0 0 20px; }
+		/* Top box */
+		.box_blue_shade .top
+		{
+			transition: transform 0.3s ease-out;
+			background: #1F497D 0 0 no-repeat;
+			color: #fff;
+			font-size: 12px;
+			font-weight: bold;
+			height: 21px;
+			line-height: 21px;
+			padding: 10px 10px 10px 10px;
+		}
+
+
+	
