@@ -1,4 +1,4 @@
-# Ekara-Inventory
+# Ekara-Console
 
 ![Windows](screenshot/badge.svg)
 
@@ -24,7 +24,6 @@ For this, the script uses the Rest Ekara API [Ekara](https://ekara.ip-label.net/
 Ekara plateform|>=23.12
 PowerShell|>=5
 .NET|>=4
-Microsoft Excel|>=2013
 
 (Account and password Ekara)
 
